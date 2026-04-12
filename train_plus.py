@@ -35,10 +35,10 @@ def build_parser():
                         help='Root directory of dataset txt files.')
     parser.add_argument('--result_path', type=str, default='/data/zhongj/Codes/UniOCT_pro/output_')
     parser.add_argument('--exp', type=str,
-                        default='All_dataset_512_two_stream_fore_back_v3_real_0905_wp_lcf',
+                        default='All_dataset_UniOCTSeg_plus',
                         help='Experiment name.')
     parser.add_argument('--resume', type=str,
-                        default='/data/zhongj/Codes/UniOCT_pro/output_All_dataset_512_two_stream_fore_back_v3_real_0905_wp_lcf/ema_iter_28000.pth',
+                        default='',
                         help='Path to checkpoint.')
     parser.add_argument('--transformer_weights', type=str,
                         default='/data/zhongj/Codes/weights/imagenet21k_ViT-B_16.npz')
@@ -138,7 +138,6 @@ def build_dataloaders(args):
     train_dataset = UniversalOCTTrainDataset(
         root=os.path.join(args.data_pth, 'new_train_data.txt'),
         train_test_flag='train',
-        
     )
 
     train_loader = torch.utils.data.DataLoader(
@@ -152,8 +151,7 @@ def build_dataloaders(args):
 
     val_dataset = UniversalOCTDataset(
         root=os.path.join(args.data_pth, 'new_val_data.txt'),
-        train_test_flag='val',
-        patch_size=(512, 512),
+        train_test_flag='val'
     )
 
     val_loader = torch.utils.data.DataLoader(
