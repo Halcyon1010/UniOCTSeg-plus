@@ -1,46 +1,66 @@
-# UniOCTSeg-plus
-We have provided the code of proposed method, following codes will be released soon.
+# UniOCTSeg++
 
-# HROCT-Bench Dataset Access
+Official repository for **UniOCTSeg++: Refined Hierarchical Prompt Strategy and Bi-directional Progressive Consistency Learning for Universal Retinal Layer Segmentation in OCT**.
 
-We have released **HROCT-Bench** on [XX Platform].
-
-## 📂 Publicly Available Subsets
-
-The following datasets do **not require additional permission** from the original authors and can be directly downloaded from our provided link (preprocessed version):
-
-- HC-MS  
-- A2A-SDOCT  
-- DUKE DME  
-- DUKE AMD   
-- HEG
-- OIMHS
-
-👉 Please refer to: [百度网盘](https://pan.baidu.com/s/1qsWxpvGweyh5T0bvSUVuTg?pwd=uwtv) Password: uwtv 
+This repository provides:
+- the official implementation of **UniOCTSeg++**
+- access instructions for the **HROCT-Bench** dataset
 
 ---
 
-## 🔒 Restricted Subsets (Authorization Required)
+## Code
 
-The following datasets require **permission from the original data providers**:
+The main codebase for the proposed method is released in this repository.
 
-- OCTA-500  
-- GCN  
+---
+
+## HROCT-Bench Dataset Access
+
+We provide access instructions for **HROCT-Bench**, a unified benchmark for universal retinal layer segmentation in OCT.
+
+### 📂 Publicly Available Subsets
+
+The following subsets do **not require additional permission** from the original data providers and can be directly downloaded from our released link in **preprocessed form**:
+
+- HC-MS
+- A2A-SDOCT
+- DUKE DME
+- DUKE AMD
+- HEG
+- OIMHS
+
+👉 Download link: [百度网盘](https://pan.baidu.com/s/1qsWxpvGweyh5T0bvSUVuTg?pwd=uwtv)  
+**Password:** `uwtv`
+
+---
+
+### 🔒 Restricted Subsets (Authorization Required)
+
+The following subsets require **authorization from the original data providers**:
+
+- OCTA-500
+- GCN
 - GOALS
 - NR206
-- Harvard-EF30K  
+- Harvard-EF30K
 
-To access these datasets:
+To access these subsets:
 
-1. Obtain authorization from the original dataset owners.
+1. Obtain authorization from the corresponding dataset owners.
 2. Forward the authorization email to us.
-3. After verification, we will provide the corresponding access link to the preprocessed data.
+3. After verification, we will provide access to the corresponding **preprocessed data** used in HROCT-Bench.
 
 ---
 
 ## 📌 Notes
 
-- All released data have been preprocessed following the pipeline described in our paper.
-- The provided resources are sufficient to reproduce the main experimental results.
-- For any questions, please contact: 1774706797z@gmail.com
+- All released data follow the preprocessing pipeline described in our paper.
+- The repository includes the code for the proposed method and the released subsets/access instructions for HROCT-Bench.
+- These resources are intended to support transparency and reproducibility of the reported experiments.
+- For any questions regarding data access, please contact: **1774706797z@gmail.com**
 
+---
+
+## Citation
+
+If you find this repository useful, please consider citing our paper.
