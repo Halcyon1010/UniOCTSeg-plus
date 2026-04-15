@@ -12,11 +12,11 @@ The following datasets do **not require additional permission** from the origina
 - HC-MS  
 - A2A-SDOCT  
 - DUKE DME  
-- DUKE AMD  
-- NR206  
-- HEG  
+- DUKE AMD   
+- HEG
+- OIMHS
 
-👉 Please refer to: [Download Link]
+👉 Please refer to: [百度网盘](https://pan.baidu.com/s/1qsWxpvGweyh5T0bvSUVuTg?pwd=uwtv) Password: uwtv 
 
 ---
 
@@ -26,7 +26,8 @@ The following datasets require **permission from the original data providers**:
 
 - OCTA-500  
 - GCN  
-- GOALS  
+- GOALS
+- NR206
 - Harvard-EF30K  
 
 To access these datasets:
