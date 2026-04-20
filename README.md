@@ -29,7 +29,8 @@ The following subsets do **not require additional permission** from the original
 - HEG
 - OIMHS
 
-👉 Download link: [百度网盘](https://pan.baidu.com/s/1qsWxpvGweyh5T0bvSUVuTg?pwd=uwtv)  
+👉 Hugging Face: [HROCT-Bench](https://huggingface.co/datasets/Hal1010/HROCT-Bench)  
+👉 Baidu Netdisk: [百度网盘](https://pan.baidu.com/s/1qsWxpvGweyh5T0bvSUVuTg?pwd=uwtv)  
 **Password:** `uwtv`
 
 ---
