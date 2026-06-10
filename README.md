@@ -30,8 +30,7 @@ The following subsets do **not require additional permission** from the original
 - OIMHS
 
 👉 Hugging Face: [HROCT-Bench](https://huggingface.co/datasets/Hal1010/HROCT-Bench)  
-👉 Baidu Netdisk: [百度网盘](https://pan.baidu.com/s/1vY5fbcF3GpnYl1_lfbFF0A?pwd=gyi4)  
-**Password:** `gyi4`
+👉 Baidu Netdisk: [百度网盘](https://pan.baidu.com/s/1vY5fbcF3GpnYl1_lfbFF0A?pwd=gyi4)  **Password:** `gyi4`
 
 ---
 
